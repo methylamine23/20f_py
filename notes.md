@@ -73,4 +73,29 @@ if name == "Ben" or name == "patricia":
         print("so youre one of those good bens, come on in")    
 else:
    print("Hello " + name + "welcome")
+
 #python lists
+camping_list = ["test", "sleeping bags", "coffe", "oil"]
+print(type(camping_list)) 
+
+camping_site = ["Crystal lake", 404, 89.3, True]#list can hold multiple data types 
+me = camping_list[3] #They are ordered
+print(me)
+
+camping_list.append("toilet paper") #it adds items to our list 
+print(camping_list)
+camping_list.extend(["tete", "bidet"]) #adds list to parent list 
+camping_list = camping_list + ["fefef", "fefef", "efef"]# you can do this as well
+camping_list.insert(0, "bidet")#adds an item to the allocated location 
+
+
+#deleting stuff from list
+camping_list.clear() #clears the whole list 
+camping_list.remove("feff") #remove single item
+camping_list.pop(0) #you can use index to remove item
+
+
+
+#Tuples-immutable (not changable, its faster)
+networkchuck = ("chuck ", )
+

@@ -26,7 +26,7 @@ total = price * int(quantity) #converted string into and interger
 print("thank you, your total will be: $" + str(total)) #converted int into string
 print("we'll have your\t" + order +" ready for you")
 
-name = "Tawsir"
+name = "Tr"
 age = 31
 actual_age = 21.7 #floating number
 print(type(name))#type-to find out what type of data the varriable name is
